@@ -1,0 +1,10 @@
+body { margin:0; font-family: system-ui, Arial; }
+.container { max-width: 900px; margin: 24px auto; padding: 0 16px; }
+.status { margin: 8px 0 16px; opacity: .8; }
+.chat { border: 1px solid #ddd; border-radius: 10px; padding: 12px; height: 60vh; overflow:auto; background:#fafafa; }
+.msg { padding: 10px 12px; margin: 8px 0; border-radius: 10px; white-space: pre-wrap; }
+.msg.user { background: #e8f0ff; align-self: flex-end; }
+.msg.assistant { background: #fff; border: 1px solid #eee; }
+.form { display:flex; gap: 8px; margin-top: 12px; }
+.form input { flex:1; padding: 10px; border-radius: 10px; border: 1px solid #ddd; }
+.form button { padding: 10px 14px; border-radius: 10px; border: 1px solid #ddd; cursor:pointer; }
